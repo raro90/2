@@ -151,7 +151,7 @@
         }
 
         .title::after {
-            content: '💐 С 8 МАРТА! 💐';
+            content: '💐 С 8 МАРТА! 💐 Кентик';
             position: absolute;
             left: 0;
             top: 0;
@@ -325,7 +325,7 @@
         }
 
         .message-box::before {
-            content: '💖';
+            content: '🍆';
             position: absolute;
             top: 10px;
             right: 10px;
@@ -559,8 +559,7 @@
             <img src="102.jpg" alt="Main Photo">
         </div>
 
-        <h1 class="title">💐 С 8 МАРТА! 💐</h1>
-        <h2 class="title">    Кентик       </h2>
+        <h1 class="title">💐 С 8 МАРТА! 💐 Кентик </h1>
 
 
                 </div>
@@ -590,7 +589,7 @@
         matrixCanvas.width = window.innerWidth;
         matrixCanvas.height = window.innerHeight;
 
-        const letters = "8МАРТАЖЕНЩИНЫЛЮБОВЬЦВЕТЫ🌸🌷💐🌺💖";
+        const letters = "8МАРТАКЕНТИКЦВЕТЫ🍆🍆🍆🍆🍆🍆";
         const fontSize = 16;
         const columns = matrixCanvas.width / fontSize;
         const drops = [];
@@ -840,7 +839,7 @@
         }
 
         function createFloatingElement() {
-            const elements = ['🌸', '🌺', '💐', '🌷', '💖', '💕', '✨'];
+            const elements = ['🍆', '🍆', '🍆', '🍆', '🍆', '🍆', '✨'];
             const el = document.createElement('div');
             el.className = 'floating-element';
             el.textContent = elements[Math.floor(Math.random() * elements.length)];
@@ -852,7 +851,7 @@
             setTimeout(() => el.remove(), 10000);        }
 
         function createFloatingHeart() {
-            const hearts = ['💖', '💕', '💓', '💗', '💝'];
+            const hearts = ['🍆', '🍆', '🍆', '🍆', '🍆'];
             const heart = document.createElement('div');
             heart.className = 'floating-element';
             heart.textContent = hearts[Math.floor(Math.random() * hearts.length)];
